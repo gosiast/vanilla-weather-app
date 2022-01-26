@@ -1,0 +1,27 @@
+body {
+  font-family: arial;
+}
+.weather-app {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 1px solid #dadde1;
+  border-radius: 12px;
+}
+h1 {
+  font-weight: bold;
+  color: #153e90;
+  font-family: "Merienda One", cursive;
+  margin-bottom: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+  color: rgb(104, 102, 102);
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 25px;
+}
