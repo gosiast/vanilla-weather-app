@@ -51,3 +51,6 @@ margin: 30px auto;
     font-size: 16px;
     top: -32px;
 }
+a {
+  text-decoration: none;
+}
