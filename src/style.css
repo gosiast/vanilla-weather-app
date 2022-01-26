@@ -41,7 +41,7 @@ margin: 30px auto;
       width: 64px;
   }
   .weather-temperature strong {
-      color: blue;
+      color: rgb(3, 3, 3);
       font-size: 64px;
       font-weight: 400;
       line-height: 1;
