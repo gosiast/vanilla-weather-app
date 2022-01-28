@@ -58,3 +58,12 @@ margin: 30px auto;
 a {
   text-decoration: none;
 }
+
+.weather-temperature .active{
+  color: black;
+  cursor: default;
+}
+
+.weather-temperature .atice:hovew {
+  text-decoration: none;
+}
