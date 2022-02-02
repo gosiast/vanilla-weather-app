@@ -76,10 +76,9 @@ a {
 
 .weather-forecast-date{
   font-size: 16px;
-  
-   
+     
 }
 .weather-forecast-temperatures {
   font-size: 13px;
-opacity: 0.6;
+  opacity: 0.6;
 }
