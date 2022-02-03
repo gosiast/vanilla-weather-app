@@ -1,22 +1,30 @@
 body {
   font-family: arial;
+  background: linear-gradient(
+    90deg,
+    rgba(58, 179, 180, 1) 0%,
+    rgba(253, 29, 131, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
 }
 h1 {
   font-weight: bold;
-  color: #153e90;
+  color: #11347a;
   font-family: "Merienda One", cursive;
-  margin-bottom: 0;
+  margin-bottom: 10px;
 }
+
 ul {
   margin: 0;
   padding: 0;
 }
 li {
+  font-family: "Merienda One", cursive;
   list-style: none;
-  color: rgb(104, 102, 102);
+  color: rgb(68, 67, 67);
   font-size: 16px;
   font-weight: 100;
-  line-height: 25px;
+  line-height: 20px;
 }
 li:first-letter {
   text-transform: capitalize;
@@ -26,9 +34,11 @@ li:first-letter {
   margin: 30px auto;
 }
 .weather-app {
-  padding: 20px;
+  background-color: white;
+  font-family: "Merienda One", cursive;
+  padding: 25px;
   border: 1px solid #dadde1;
-  border-radius: 12px;
+  border-radius: 15px;
 }
 .overview {
   margin-bottom: 20px;
@@ -64,7 +74,7 @@ a {
 }
 
 .weather-forecast {
-  margin-top: 20px;
+  margin-top: 25px;
   text-align: center;
   color: #000000;
 }
@@ -75,4 +85,11 @@ a {
 .weather-forecast-temperatures {
   font-size: 13px;
   opacity: 0.6;
+}
+
+p {
+  margin-top: 20px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  margin-left: 300px;
 }
