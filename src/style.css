@@ -15,7 +15,7 @@ h1 {
 }
 
 ul {
-  margin: 0;
+  margin: 15px;
   padding: 0;
 }
 li {
@@ -46,9 +46,10 @@ li:first-letter {
 }
 
 .weather-temperature img {
-  margin-right: 5px;
-  height: 64px;
-  width: 64px;
+  margin-right: 15px;
+  margin-top: -10px;
+  height: 84px;
+  width: 84px;
 }
 .weather-temperature strong {
   color: rgb(3, 3, 3);
@@ -81,11 +82,11 @@ a {
 }
 
 .weather-forecast-date {
-  font-size: 16px;
+  font-size: 17px;
 }
 .weather-forecast-temperatures {
-  font-size: 13px;
-  opacity: 0.6;
+  font-size: 15px;
+  opacity: 0.7;
 }
 
 p {
